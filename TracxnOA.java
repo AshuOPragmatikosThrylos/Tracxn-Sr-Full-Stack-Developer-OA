@@ -1,13 +1,13 @@
 import java.io.*;
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
+// import java.text.*;
+// import java.math.*;
+// import java.util.regex.*;
 // Uncomment below classes to send network request if needed.
 // import java.net.HttpURLConnection;
 // import java.net.URL;
 
-class TraxcnOA {
+class TracxnOA {
     public static void main(String args[] ) throws Exception {
         String inputData = "";
         String thisLine = null;
@@ -70,7 +70,7 @@ class TraxcnOA {
 
                         if(index > maxIndex)
                         {
-                            maxindex = index;
+                            maxIndex = index;
                             toRemove = candidate;
                         }
                     }
